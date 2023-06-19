@@ -18,26 +18,26 @@ public class Main {
             if (isQ(firstNumber)) break;
             log.info("entered 1st number: " + firstNumber);
 
-            System.out.print("Enter function: ");
-            String function = scanner.next();
-            if (isQ(function)) break;
-            if (!(function.equals("+") ||
-                    function.equals("-") ||
-                    function.equals("*") ||
-                    function.equals("/"))
+            System.out.print("Enter math operator: ");
+            String mathOperator = scanner.next();
+            if (isQ(mathOperator)) break;
+            if (!(mathOperator.equals("+") ||
+                    mathOperator.equals("-") ||
+                    mathOperator.equals("*") ||
+                    mathOperator.equals("/"))
             ) {
-                log.info("user entered wrong function");
-                System.out.println("wrong function try again");
+                log.info("user entered wrong mathOperator");
+                System.out.println("wrong mathOperator try again");
                 continue;
             }
-            log.info("entered function");
+            log.info("entered mathOperator");
 
             System.out.print("Enter 2nd number: ");
             String secondNumber = scanner.next();
             if (isQ(secondNumber)) break;
             log.info("entered 2nd number: " + secondNumber);
 
-            if (function.equals("/") && secondNumber.equals("0")) {
+            if (mathOperator.equals("/") && secondNumber.equals("0")) {
                 log.warn("user tried to /0");
                 System.out.println("Can not divide by zero");
                 continue;
@@ -45,7 +45,7 @@ public class Main {
             double firstN = Double.parseDouble(firstNumber);
             double secondN = Double.parseDouble(secondNumber);
 
-            double result = switch (function) {
+            double result = switch (mathOperator) {
                 case "+" -> sumResult(firstN, secondN);
                 case "-" -> subtractResult(firstN, secondN);
                 case "*" -> multiResult(firstN, secondN);
@@ -63,6 +63,9 @@ public class Main {
     }
 
     public static double divideResult(double firstN, double secondN) {
+        if (secondN == 0) {
+            throw new ArithmeticException("Division by zero");
+        }
         return firstN / secondN;
     }
 

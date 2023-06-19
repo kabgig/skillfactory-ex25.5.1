@@ -41,4 +41,10 @@ public class MainTest {
                 boolean exp = true;
                 Assert.assertEquals(exp, act);
         }
+
+        @Test(expected = ArithmeticException.class)
+        public void divisionWithException() {
+                Main.divideResult(15, 0);
+        }
+
 }
