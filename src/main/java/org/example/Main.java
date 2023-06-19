@@ -46,10 +46,10 @@ public class Main {
             double secondN = Double.parseDouble(secondNumber);
 
             double result = switch (function) {
-                case "+" -> firstN + secondN;
-                case "-" -> firstN - secondN;
-                case "*" -> firstN * secondN;
-                default -> firstN / secondN;
+                case "+" -> sumResult(firstN, secondN);
+                case "-" -> subtractResult(firstN, secondN);
+                case "*" -> multiResult(firstN, secondN);
+                default -> divideResult(firstN, secondN);
             };
         log.info("Got result: " + result);
 
@@ -62,9 +62,24 @@ public class Main {
         log.info("user turned off the calculator");
     }
 
+    public static double divideResult(double firstN, double secondN) {
+        return firstN / secondN;
+    }
+
+    public static double multiResult(double firstN, double secondN) {
+        return firstN * secondN;
+    }
+
+    public static double subtractResult(double firstN, double secondN) {
+        return firstN - secondN;
+    }
+
+    public static double sumResult(double firstN, double secondN) {
+        return firstN + secondN;
+    }
 
 
-    private static boolean isQ(String num) {
+    public static boolean isQ(String num) {
         return num.equalsIgnoreCase("q");
     }
 }
