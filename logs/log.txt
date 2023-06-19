@@ -1,0 +1,36 @@
+[INFO ] 2023-06-19 15:06:22.585 [main] Main - entered 1st number
+[INFO ] 2023-06-19 15:06:36.331 [main] Main - entered function
+[INFO ] 2023-06-19 15:06:40.297 [main] Main - entered 2nd number
+[WARN ] 2023-06-19 15:06:40.297 [main] Main - user tried to /0
+[INFO ] 2023-06-19 15:06:54.947 [main] Main - entered 1st number
+[INFO ] 2023-06-19 15:07:01.372 [main] Main - entered function
+[INFO ] 2023-06-19 15:07:04.257 [main] Main - entered 2nd number
+[INFO ] 2023-06-19 15:07:04.259 [main] Main - Got result
+[INFO ] 2023-06-19 15:07:04.260 [main] Main - printed result
+[INFO ] 2023-06-19 15:07:36.390 [main] Main - user turned off the calculator
+[INFO ] 2023-06-19 15:08:26.081 [main] Main - entered 1st number
+[INFO ] 2023-06-19 15:08:43.586 [main] Main - entered function
+[INFO ] 2023-06-19 15:08:49.512 [main] Main - entered 2nd number
+[INFO ] 2023-06-19 15:08:49.514 [main] Main - Got result
+[INFO ] 2023-06-19 15:08:49.516 [main] Main - printed result
+[INFO ] 2023-06-19 15:11:36.116 [main] Main - entered 1st number: 4
+[INFO ] 2023-06-19 15:11:38.984 [main] Main - entered function
+[INFO ] 2023-06-19 15:11:41.777 [main] Main - entered 2nd number: 4
+[INFO ] 2023-06-19 15:11:41.780 [main] Main - Got result: 8.0
+[INFO ] 2023-06-19 15:11:41.781 [main] Main - printed result
+[INFO ] 2023-06-19 15:11:49.677 [main] Main - entered 1st number: 4
+[INFO ] 2023-06-19 15:11:51.457 [main] Main - entered function
+[INFO ] 2023-06-19 15:11:56.509 [main] Main - entered 2nd number: 0
+[WARN ] 2023-06-19 15:11:56.509 [main] Main - user tried to /0
+[INFO ] 2023-06-19 15:12:03.143 [main] Main - entered 1st number: 4.6
+[INFO ] 2023-06-19 15:12:05.398 [main] Main - entered function
+[INFO ] 2023-06-19 15:12:07.491 [main] Main - entered 2nd number: 2
+[INFO ] 2023-06-19 15:12:07.492 [main] Main - Got result: 2.3
+[INFO ] 2023-06-19 15:12:07.492 [main] Main - printed result
+[INFO ] 2023-06-19 15:12:12.540 [main] Main - user turned off the calculator
+[INFO ] 2023-06-19 15:13:06.669 [main] Main - entered 1st number: 4
+[INFO ] 2023-06-19 15:13:08.721 [main] Main - entered function
+[INFO ] 2023-06-19 15:13:11.365 [main] Main - entered 2nd number: 5
+[INFO ] 2023-06-19 15:13:11.368 [main] Main - Got result: 9.0
+[INFO ] 2023-06-19 15:13:11.369 [main] Main - printed result
+[INFO ] 2023-06-19 15:13:13.095 [main] Main - user turned off the calculator
