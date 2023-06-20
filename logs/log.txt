@@ -34,3 +34,9 @@
 [INFO ] 2023-06-19 15:13:11.368 [main] Main - Got result: 9.0
 [INFO ] 2023-06-19 15:13:11.369 [main] Main - printed result
 [INFO ] 2023-06-19 15:13:13.095 [main] Main - user turned off the calculator
+[INFO ] 2023-06-20 15:05:47.541 [main] Main - entered 1st number: 1
+[INFO ] 2023-06-20 15:05:50.880 [main] Main - entered mathOperator
+[INFO ] 2023-06-20 15:05:52.959 [main] Main - entered 2nd number: 2
+[INFO ] 2023-06-20 15:05:52.961 [main] Main - Got result: 3.0
+[INFO ] 2023-06-20 15:05:52.961 [main] Main - printed result
+[INFO ] 2023-06-20 15:05:55.316 [main] Main - user turned off the calculator

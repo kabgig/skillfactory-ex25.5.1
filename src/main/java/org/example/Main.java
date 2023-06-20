@@ -1,13 +1,15 @@
 package org.example;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
 
 import java.util.Scanner;
 
 public class Main {
+    private static final Logger log = LoggerFactory.getLogger(Main.class);
+
     public static void main(String[] args) {
-        Logger log = LogManager.getLogger(Main.class);
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter 'q' to quit the program");
 
@@ -51,13 +53,13 @@ public class Main {
                 case "*" -> multiResult(firstN, secondN);
                 default -> divideResult(firstN, secondN);
             };
-        log.info("Got result: " + result);
+            log.info("Got result: " + result);
 
-        System.out.println("Result: " + result);
-        log.info("printed result");
+            System.out.println("Result: " + result);
+            log.info("printed result");
         }
 
-    //------
+        //------
         System.out.println("Calculator is off");
         log.info("user turned off the calculator");
     }
